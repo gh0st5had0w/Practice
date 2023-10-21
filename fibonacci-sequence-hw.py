@@ -5,7 +5,7 @@ term0 = 0
 term1 = 1
 term2 = 1
 
-while term2 in range(n):
+while term2 <= n:
 	myList.append(term2)
 	term2 = term0 + term1
 	term0 = term1
